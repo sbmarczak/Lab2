@@ -1,0 +1,43 @@
+public class Film {
+    // Pola klasy
+    private String tytul;
+    private String rezyser;
+    private String gatunek;
+    private int ocena;
+    private String aktor;
+    private int rokProdukcji;
+
+    // Konstruktor
+    public Film(String tytul, String rezyser, String gatunek, int rokProdukcji) {
+        // Inicjalizacja pól klasy
+    }
+
+    // Metody
+    public void ustawOcene(int ocena) {
+        // Logika metody
+    }
+
+    public void ustawAktora(String aktor) {
+        // Logika metody
+    }
+
+    public String getTytul() {
+        // Logika metody
+        return tytul;
+    }
+
+    public void setTytul(String tytul) {
+        // Logika metody
+    }
+
+    // Pozostałe gettery i settery
+
+    public void wyswietlInformacje() {
+        // Logika metody
+    }
+
+    // Metoda main
+    public static void main(String[] args) {
+        // Kod w metodzie main
+    }
+}
